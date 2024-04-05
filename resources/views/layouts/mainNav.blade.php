@@ -17,7 +17,7 @@
             <a class="nav-link {{ Request::path() ==  'promos' ? 'active' : ''  }}" href="promos">Promos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ Request::path() ==  'contactus' ? 'active' : ''  }}" href="contactus">Contact</a>
+            <a class="nav-link {{ Request::path() ==  'contactus' ? 'active' : ''  }}" href="contactus">Contacts</a>
           </li>
           <li class="nav-item ms-lg-auto">
             <a class="nav-link {{ Request::path() ==  'login' ? 'active' : ''  }}" href="login">Login</a>
